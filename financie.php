@@ -10,6 +10,14 @@
                 <li><a href="#section3">Sporenie</a></li>
                 <li><a href="#section4">Úvery a pôžičky</a></li>
               </ul>
+              <form class="sub-menu-dropdown">
+                <select>
+                   <option value="#section1">Hypotéky</option>
+                   <option value="#section2">Kreditné karty</option>
+                   <option value="#section3">Sporenie</option>
+                   <option value="#section4">Úvery a pôžičky</option>
+                </select>
+              </form>
             </nav>
           </div>
           <section id="section1">

@@ -15,16 +15,18 @@
     <title>Solubet <?php echo ucfirst("$page_name");?> </title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/selectordie.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b1eca51da3.js"></script>
+    <meta name='viewport' content='width=device-width, intitial-scale=1' >
     </head>
     <body>
       <div id="container">
         <header class="header">
           <div class="header-text-box">
             <h1 ID="logo"><span>Solubet </span>s.r.o.</h1>
-            <p class="header-text">Naša spoločnosť SOLUBET, s.r.o. vznikla 3.1.2014, s cieľom poskytnúť každému klientovi,
+            <p>Naša spoločnosť SOLUBET, s.r.o. vznikla 3.1.2014, s cieľom poskytnúť každému klientovi,
               to najlepšie z možností finančného, poistného a od roku 2019 i realitného trhu. Našou devízou je vždy profesionálny a otvorený prístup.</p>
           </div>
           <ul class="contact">
@@ -38,10 +40,18 @@
                <li><a href="financie.php">Finančné produkty</a></li>
                <li><a href="reality.php">Reality</a></li>
                <li><a href="o_nas.php">O nás</a></li>
-               <li><a href="javascript:void(0);" class="icon" onclick="menuRespons()">
-                    <i class="fa fa-bars"></i>
-                  </a>
-               </li>
              </ul>
+             <a class="menu-icon">
+                <i class="fa fa-bars"></i>
+             </a>
+          </nav>
+             <ul id="menu-cover">
+               <li><a href="index.php">Poistenie</a></li>
+               <li><a href="financie.php">Finančné produkty</a></li>
+               <li><a href="reality.php">Reality</a></li>
+               <li><a href="o_nas.php">O nás</a></li>
+             </ul>
+          <nav>
+
           </nav>
         </header>

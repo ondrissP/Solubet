@@ -9,6 +9,14 @@
                 <li class="col span-1-of-4"><a href="#section3">Kontakt</a></li>
                 <li class="col span-1-of-4"><a href="#section4">Naši partneri</a></li>
               </ul>
+              <form class="sub-menu-dropdown">
+                <select>
+                   <option value="#section1">Profil spoločnosti</option>
+                   <option value="#section2">Služby</option>
+                   <option value="#section3">Kontakt</option>
+                   <option value="#section4">Naši partneri</option>
+                </select>
+              </form>
             </nav>
           </div>
           <section id="section1">

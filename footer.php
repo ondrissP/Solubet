@@ -12,6 +12,7 @@
     </ul>
 </footer>
 <script src="js/jQuery"></script>
+<script src="js/selectordie.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

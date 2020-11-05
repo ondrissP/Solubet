@@ -8,6 +8,14 @@
                 <li><a href="#section3">Poistenie motorových vozidiel</a></li>
                 <li><a href="#section4">Životné a úrazové poistenie</a></li>
               </ul>
+              <form class="sub-menu-dropdown">
+                <select>
+                   <option value="#section1">Cestovné poistenie</option>
+                   <option value="#section2">Poistenie majetku</option>
+                   <option value="#section3">Poistenie motorových vozidiel</option>
+                   <option value="#section4">Životné a úrazové poistenie</option>
+                </select>
+              </form>
             </nav>
               <section id="section1">
                 <div class="content-container">

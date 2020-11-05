@@ -52,20 +52,47 @@
       overlay.fadeOut();
     });
 
-
     $(document).on('keyup', function(event){
      if (event.which === 27) overlay.fadeOut();
     });
 
 
 // Menu Responsive----------------------------------------
+    var menuCover = $('#menu-cover')
 
-function menuRespons() {
-  var menu = $(".menu");
-  if (menu.className === "menu") {
-    menu.className += " responsive";
-  } else {
-    menu.className = "menu";
-  }
-}
+    menuCover.hide();
+
+    $('.menu-icon').click(function() {
+      var menuCover = $('#menu-cover')
+          menuIcon = $('.menu-icon i')
+
+      menuCover.slideToggle(200);
+
+      /*
+      if (menuIcon.hasClass('fa fa-bars')) {
+        menuIcon.addClass('fas fa-times');
+        menuIcon.removeClass('fa fa-bars');
+      } else {
+        menuIcon.addClass('fa fa-bars');
+        menuIcon.removeClass('fas fa-times');
+      }
+      */
+    });
+
+      menuCover.on('click', function(){
+        menuCover.slideToggle();
+      });
+      $(document).on('keyup', function(event){
+       if (event.which === 27) menuCover.slideUp();
+    });
+
+// Submenu dropdown - select or die plugin-------------------
+
+    var select = $(".sub-menu-dropdown select");
+    select.selectOrDie();
+
+    select.change(function() {
+      location = this.options[this.selectedIndex].value;
+    });
+
 })(jQuery);
